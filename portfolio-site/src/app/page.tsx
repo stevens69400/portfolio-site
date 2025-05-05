@@ -6,12 +6,12 @@ import Image from 'next/image'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center ">
     
 
       <div className="flex flex-col items-center h-full px-4 py-8">
 
-        <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-4xl px-5 py-8 bg-white rounded-lg shadow-lg">
+        <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-4xl px-5 py-8 bg rounded-lg shadow-xl border-1">
        
        <div className="flex flex-col md:items-start ">
                   <h1 className="text-4xl font-semibold">Steven Stafford</h1>
@@ -39,6 +39,11 @@ const HomePage = () => {
           </div>
 
       </div>
+
+      <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-4xl px-5 py-8 bg rounded-lg shadow-xl border-1">
+             
+       </div>
+
     </div>  
   
   )

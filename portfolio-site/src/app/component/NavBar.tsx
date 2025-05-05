@@ -3,14 +3,16 @@ import Link from 'next/link';
 import { CiSun, CiDark } from "react-icons/ci"; 
 import React from 'react'; 
 import ThemeSwitch from './ThemeSwitch';
+import { FaHome } from "react-icons/fa";
+
 
 const NavBar = () => {
 
   return (
     <div className="flex justify-around px-2 py-8">
       <div className="">
-        <Link href="/" className="sm:text-4xl md:text-6xl lg:text-7xl">
-          <CiSun />
+        <Link href="/" className="sm:text-2xl md:text-5xl lg:text-4xl">
+           <FaHome />
         </Link>
       </div>
       <div className="flex justify-between items-center gap-7">
