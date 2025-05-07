@@ -1,12 +1,16 @@
 import React from 'react'
+import Image from 'next/image'
+
+
+
 
 const About = () => {
   return (
-    <div className="flex">
-      <div className="flex flex-col items-center px-4 py-8">
-        <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-4xl px-5 py-8 bg rounded-lg shadow-xl border-1">
+    <div className="flex gap-10">
+      <div className="flex flex-row items-center justify-around px-30 py-8 gap-10">
+        <div className="flex flex-col md:flex-row justify-around items-center w-150 px-9 py-8 bg rounded-lg">
           <div className="flex flex-col md:items-start">
-            <h1 className="text-4xl font-semibold">About Me</h1>
+            <h1 className="text-4xl font-semibold">Steven, Here! 👋🏽 </h1>
             <p className="ml-4 mt-4 text-lg font-thin">
               I'm a Software Engineer living in Nashville, Tennessee. I have a passion for building web applications and exploring new technologies. In my free time, I enjoy hiking, reading, and playing video games.
             </p>
@@ -16,8 +20,24 @@ const About = () => {
             <p className="ml-4 mt-4 text-lg font-thin">
               I'm always looking for new challenges and opportunities to grow as a developer. If you're interested in working together or just want to chat, feel free to reach out!
             </p>
+
           </div>
           </div>
+          <div className="flex flex-col md:flex-row justify-between items-center w-150 px-5 py-8 bg">
+          <div className="flex flex-col md:items-start">
+          <div className="flex justify-center items-center">
+                <Image 
+                  src="/about.png"
+                  alt="Picture of the author"
+                  className='w-full h-full border border-black-300 rounded-xl'
+                  width={200}
+                  height={200}>
+
+                  </Image>
+        </div>
+                                 
+            </div>
+            </div>
       </div>
        
     </div>
