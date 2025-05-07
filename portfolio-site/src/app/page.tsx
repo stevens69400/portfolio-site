@@ -49,7 +49,7 @@ const HomePage = () => {
 
       <div className='flex  gap-4 sm:text-2xl md:text-5xl lg:text-4xl'>
           
-      <Link href="/" className="sm:text-2xl md:text-5xl lg:text-4xl  hover:text-purple-500 glove:">
+      <Link href="/" className="sm:text-2xl md:text-5xl lg:text-4xl  hover:text-purple-500">
                <FaInstagram />
         </Link>
 
