@@ -7,7 +7,7 @@ const techStack: string[] = [
   'Welcome to my Portfolio!',
   'Here is my tech stack:',
   '',
-  '- JavaScript | TypeScript | React | Next.js | Node.js | MySQL',
+  '- JavaScript | TypeScript | React | Next.js | MySQL',
 ];
 
 const Terminal: React.FC = () => {
