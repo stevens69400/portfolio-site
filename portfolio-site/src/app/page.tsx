@@ -4,6 +4,7 @@ import NavBar from './component/NavBar'
 import Image from 'next/image'
 import Terminal from './component/Terminal'
 import { FaLinkedin,FaInstagram,FaGithub, FaYoutube} from "react-icons/fa";
+import  ExperinceTimeline from './component/ExperienceTimeline'
 
 
 
@@ -14,19 +15,12 @@ const HomePage = () => {
 
       <div className="flex flex-col items-center h-full px-4 py-8">
 
-        <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-4xl px-5 py-8 bg rounded-lg shadow-xl border-1">
+        <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-4xl px-5 py-8 bg rounded-lg shadow-xl border-1 hover:scale-105 transition-transform duration-300">
        
        <div className="flex flex-col md:items-start">
                   <h1 className="text-4xl font-semibold">Steven Stafford</h1>
-              
-                  <p className="ml-4 mt-4 text-lg font-thin">I'm a Software Engineer living in Nashville, Tennessee.
-             
+                  <p className="ml-4 px-2 py-2 text-lg font-thin mr-10">I'm a Software Engineer living in Nashville, Tennessee.
                   </p>
-
-                  <Link href="/projects" className="mt-6 px-2 py-3 bg-blue-500 text-white rounded">  
-                    View Projects
-                  </Link>   
-                
         </div>
 
                 <div>
@@ -67,7 +61,12 @@ const HomePage = () => {
         </Link>
 
       </div>
+      <div className="flex flex md:flex-row justify-around  gap-4 items-center w-full max-w-4xl px-5 py-8 bg">
+        <h1 className=" text-xl font-semibold">Next Chapter: Internships Incoming</h1>
+        <ExperinceTimeline />
 
+        </div>
+      
     </div>  
   
   )

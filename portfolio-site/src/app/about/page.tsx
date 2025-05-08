@@ -1,5 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+import { FaRegFolderOpen, } from "react-icons/fa"
+import { TbCertificate } from "react-icons/tb"
+
 
 
 
@@ -20,7 +24,20 @@ const About = () => {
             <p className="ml-4 mt-4 text-lg font-thin">
               I'm always looking for new challenges and opportunities to grow as a developer. If you're interested in working together or just want to chat, feel free to reach out!
             </p>
-
+            <div className="flex flex-row gap-4 mt-6">
+          <Link
+            href="/projects"
+            className="flex items-center justify-center gap-2 px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition-colors"
+          >
+            Review Resume <FaRegFolderOpen className="hover:scale-110 transition-transform" />
+          </Link>
+          <Link
+            href="/projects"
+            className="flex items-center justify-center gap-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+          >
+            View Certifications <TbCertificate className="hover:scale-110 transition-transform" />
+          </Link>
+        </div>
           </div>
           </div>
           <div className="flex flex-col md:flex-row justify-between items-center w-150 px-5 py-8 bg">
