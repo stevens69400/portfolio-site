@@ -61,7 +61,7 @@ const HomePage = () => {
         </Link>
 
       </div>
-      <div className="flex flex md:flex-row justify-around  gap-4 items-center w-full max-w-4xl px-5 py-8 bg">
+      <div className="flex md:flex-row justify-around  gap-4 items-center w-full max-w-4xl px-5 py-8 bg">
         <h1 className=" text-xl font-semibold">Next Chapter: Internships Incoming</h1>
         <ExperinceTimeline />
 

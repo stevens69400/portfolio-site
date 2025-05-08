@@ -33,7 +33,7 @@ const experiences = [
 export default function ExperienceTimeline() {
   return (
     <div className="flex-col items-center justify-around max-w-2xl mx-auto px-4 py-10">
-      <h2 className="group flex flex-row items-center justify-center gap-1 text-2xl font-bold mb-6">Experiencies <RiScrollToBottomLine />
+      <h2 className="group flex flex-row items-center justify-center gap-1 text-2xl font-bold mb-6">Experiences <RiScrollToBottomLine />
         <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm text-gray-500">Scroll to View More</span>
       </h2> 
       <div className="border-l-2 border-gray-300 pl- 4">
