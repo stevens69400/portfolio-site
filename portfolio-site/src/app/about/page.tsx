@@ -22,7 +22,7 @@ const About = () => {
               I have experience in various programming languages and frameworks, including JavaScript, Python, React, and Node.js. I love collaborating with others and learning from different perspectives.
             </p>
             <p className="ml-4 mt-4 text-lg font-thin">
-              I am always looking for new challenges and opportunities to grow as a developer. If you're interested in working together or just want to chat, feel free to reach out!
+              I am always looking for new challenges and opportunities to grow as a developer. If you are interested in working together or just want to chat, feel free to reach out!
             </p>
             <div className="flex flex-row gap-4 mt-6">
           <Link
