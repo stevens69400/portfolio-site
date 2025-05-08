@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaBriefcase, FaUserGraduate } from "react-icons/fa";
 import { RiScrollToBottomLine } from "react-icons/ri";
+import Image from 'next/image';
 
 
 
@@ -22,8 +23,9 @@ const experiences = [
   {
     title: "AS Computer Science Student",
     company: "South College",
-    date: "2023 – Present",
-    icon: <FaUserGraduate className="w-5 h-5 text-white" />,
+    date: "2023 – 2025",
+    icon: <Image width={100} height={100} src="/southcollege_logo.jpeg" alt="Student Icon" />
+    ,
     description: "Pursuing a degree in Computer Science with a focus on software development.",
   },
 ];

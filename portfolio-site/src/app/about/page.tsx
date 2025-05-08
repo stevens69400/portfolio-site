@@ -26,13 +26,15 @@ const About = () => {
             </p>
             <div className="flex flex-row gap-4 mt-6">
           <Link
-            href="/projects"
+            href="https://drive.google.com/file/d/1AZVKNw2mo7YsX3ZBkq9UL5xQ-dVswZj5/view"
+            target="_blank"
             className="flex items-center justify-center gap-2 px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition-colors"
           >
             Review Resume <FaRegFolderOpen className="hover:scale-110 transition-transform" />
           </Link>
           <Link
-            href="/projects"
+            href="https://www.credly.com/users/steven-stafford-cred"
+            target="_blank"
             className="flex items-center justify-center gap-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
           >
             View Certifications <TbCertificate className="hover:scale-110 transition-transform" />

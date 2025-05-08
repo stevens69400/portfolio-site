@@ -43,20 +43,20 @@ const HomePage = () => {
 
       <div className='flex  gap-4 sm:text-2xl md:text-5xl lg:text-4xl'>
           
-      <Link href="/" className="sm:text-2xl md:text-5xl lg:text-4xl  hover:text-purple-500">
+      <Link href="https://www.instagram.com/stevebookmark"  target="_blank"  className="sm:text-2xl md:text-5xl lg:text-4xl  hover:text-purple-500">
                <FaInstagram />
         </Link>
 
-        <Link href="/" className="sm:text-2xl md:text-5xl lg:text-4xl  hover:text-blue-500">
+        <Link href="www.linkedin.com/in/steven-m-stafford"  target="_blank"  className="sm:text-2xl md:text-5xl lg:text-4xl  hover:text-blue-500">
                 <FaLinkedin /> 
 
         </Link>
 
-        <Link href="/" className="sm:text-2xl md:text-5xl lg:text-4xl hover:text-gray-500">
+        <Link href="https://github.com/stevens69400" target="_blank"  className="sm:text-2xl md:text-5xl lg:text-4xl hover:text-gray-500">
                 <FaGithub />
         </Link>
        
-        <Link href="/" className="flex gap-3 sm:text-2xl md:text-4xl lg:text-4l hover:text-red-500">
+        <Link href="https://www.youtube.com/@SteveGoat72"  target="_blank"  className="flex gap-3 sm:text-2xl md:text-4xl lg:text-4l hover:text-red-500">
                 <FaYoutube />
         </Link>
 
