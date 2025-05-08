@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBriefcase, FaUserGraduate } from "react-icons/fa";
+import { FaBriefcase} from "react-icons/fa";
 import { RiScrollToBottomLine } from "react-icons/ri";
 import Image from 'next/image';
 

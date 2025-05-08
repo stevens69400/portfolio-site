@@ -16,13 +16,13 @@ const About = () => {
           <div className="flex flex-col md:items-start">
             <h1 className="text-4xl font-semibold">Steven, Here! 👋🏽 </h1>
             <p className="ml-4 mt-4 text-lg font-thin">
-              I'm a Software Engineer living in Nashville, Tennessee. I have a passion for building web applications and exploring new technologies. In my free time, I enjoy hiking, reading, and playing video games.
+              I am a Software Engineer living in Nashville, Tennessee. I have a passion for building web applications and exploring new technologies. In my free time, I enjoy hiking, reading, and playing video games.
             </p>
             <p className="ml-4 mt-4 text-lg font-thin">
               I have experience in various programming languages and frameworks, including JavaScript, Python, React, and Node.js. I love collaborating with others and learning from different perspectives.
             </p>
             <p className="ml-4 mt-4 text-lg font-thin">
-              I'm always looking for new challenges and opportunities to grow as a developer. If you're interested in working together or just want to chat, feel free to reach out!
+              I am always looking for new challenges and opportunities to grow as a developer. If you're interested in working together or just want to chat, feel free to reach out!
             </p>
             <div className="flex flex-row gap-4 mt-6">
           <Link
@@ -48,7 +48,7 @@ const About = () => {
                 <Image 
                   src="/about.png"
                   alt="Picture of the author"
-                  className='w-full h-full border border-black-300 rounded-xl'
+                  className="w-full h-full border border-black-300 rounded-xl"
                   width={200}
                   height={200}>
 

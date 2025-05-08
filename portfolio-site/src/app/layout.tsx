@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers"
 import NavBar from "./component/NavBar";
-import ThemeSwitch from "./component/ThemeSwitch";
+
 
 
 
@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en"
       suppressHydrationWarning>
-
+np
       <body>
         <Providers>
           <NavBar />

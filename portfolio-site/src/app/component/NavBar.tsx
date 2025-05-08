@@ -1,10 +1,9 @@
 
 import Link from 'next/link';
-import { CiSun, CiDark, CiShop } from "react-icons/ci"; 
+import {CiShop} from "react-icons/ci"; 
 import React from 'react'; 
 import ThemeSwitch from './ThemeSwitch';
-import { FaHome } from "react-icons/fa";
-import about from '../about/page';
+
 
 
 const NavBar = () => {

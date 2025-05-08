@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import React from 'react'
-import NavBar from './component/NavBar'
 import Image from 'next/image'
 import Terminal from './component/Terminal'
 import { FaLinkedin,FaInstagram,FaGithub, FaYoutube} from "react-icons/fa";
@@ -19,7 +18,7 @@ const HomePage = () => {
        
        <div className="flex flex-col md:items-start">
                   <h1 className="text-4xl font-semibold">Steven Stafford</h1>
-                  <p className="ml-4 px-2 py-2 text-lg font-thin mr-10">I'm a Software Engineer living in Nashville, Tennessee.
+                  <p className="ml-4 px-2 py-2 text-lg font-thin mr-10">I am a Software Engineer living in Nashville, Tennessee.
                   </p>
         </div>
 
