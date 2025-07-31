@@ -1,30 +1,31 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { FaRegFolderOpen, } from "react-icons/fa"
-import { TbCertificate } from "react-icons/tb"
-
-
-
-
+import { FaRegFolderOpen } from 'react-icons/fa'
+import { TbCertificate } from 'react-icons/tb'
 
 const About = () => {
   return (
-    <div className="flex gap-10">
-      <div className="flex flex-row items-center justify-around px-30 py-8 gap-10">
-        <div className="flex flex-col md:flex-row justify-around items-center w-150 px-9 py-8 bg rounded-lg">
-          <div className="flex flex-col md:items-start">
-            <h1 className="text-4xl font-semibold">Steven, Here! 👋🏽 </h1>
-            <p className="ml-4 mt-4 text-lg font-thin">
-              I am a Software Engineer living in Nashville, Tennessee. I have a passion for building web applications and exploring new technologies. In my free time, I enjoy hiking, reading, and playing video games.
-            </p>
-            <p className="ml-4 mt-4 text-lg font-thin">
-              I have experience in various programming languages and frameworks, including JavaScript, Python, React, and Node.js. I love collaborating with others and learning from different perspectives.
-            </p>
-            <p className="ml-4 mt-4 text-lg font-thin">
-              I am always looking for new challenges and opportunities to grow as a developer. If you are interested in working together or just want to chat, feel free to reach out!
-            </p>
-            <div className="flex flex-row gap-4 mt-6">
+    <div className="flex flex-col md:flex-row gap-10 items-center justify-center w-full px-8 py-10  rounded-lg shadow-md">
+      
+      {/* Text Section */}
+      <div className="max-w-2xl">
+        <h1 className="text-4xl font-bold mb-4">Steven, here! 👋🏽</h1>
+        <p className="text-lg  mb-4 leading-relaxed">
+          That photo to the right is me and my girlfriend on my graduation day — a moment that meant a lot to both of us.
+        </p>
+        <p className="text-lg mb-4 leading-relaxed">
+          I live in Nashville, Tennessee, and while I once dreamed of climbing the ranks as a software engineer, I’ve realized that what drives me isn’t position — it’s purpose. I’m passionate about improving systems, learning every day, and using technology to serve people.
+        </p>
+        <p className="text-lg mb-4 leading-relaxed">
+          I’ve been part of the <strong>JC Movement</strong>, a nonprofit before-and-after school program I’ve supported since 2013. I helped in its earliest days, and now it serves three partner schools. I’m honored to continue contributing by building and maintaining its web platform.
+        </p>
+        <p className="text-lg mb-4 leading-relaxed">
+          My love for family and my faith in the Lord have carried me through every season. I truly believe He’s brought me this far for a reason — and I know there's still so much more He has for me to do in this world.
+        </p>
+
+        {/* Links */}
+        <div className="flex flex-row gap-4 mt-6 flex-wrap">
           <Link
             href="https://drive.google.com/file/d/1AZVKNw2mo7YsX3ZBkq9UL5xQ-dVswZj5/view"
             target="_blank"
@@ -40,25 +41,18 @@ const About = () => {
             View Certifications <TbCertificate className="hover:scale-110 transition-transform" />
           </Link>
         </div>
-          </div>
-          </div>
-          <div className="flex flex-col md:flex-row justify-between items-center w-150 px-5 py-8 bg">
-          <div className="flex flex-col md:items-start">
-          <div className="flex justify-center items-center">
-                <Image 
-                  src="/about.png"
-                  alt="Picture of the author"
-                  className="w-full h-full border border-black-300 rounded-xl"
-                  width={200}
-                  height={200}>
-
-                  </Image>
-        </div>
-                                 
-            </div>
-            </div>
       </div>
-       
+
+      {/* Image Section */}
+      <div className="flex ">
+        <Image
+          src="/picmeandlove.jpg"
+          alt="Steven and his girlfriend on graduation day"
+          className="rounded-xl shadow-lg border border-gray-300"
+          width={400}
+          height={400}
+        />
+      </div>
     </div>
   )
 }

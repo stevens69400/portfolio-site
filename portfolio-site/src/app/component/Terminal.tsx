@@ -1,13 +1,19 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import styles from './Terminal.module.css'; // We'll create this CSS module next
+import styles from './Terminal.module.css';
 
-const techStack: string[] = [
+const techStackLines: string[] = [
   'Welcome to my Portfolio!',
-  'Here is my tech stack:',
   '',
-  '- JavaScript | TypeScript | React | Next.js | MySQL',
+  'Tech Stack:',
+  ' JavaScript · TypeScript · React · Next.js · MySQL',
+  '',
+  'QA & Testing:',
+  ' Playwright · Selenium · Postman · GitHub Actions',
+  '',
+  'Agile Skills:',
+  ' Scrum · Sprint Planning · Retrospectives · Coaching',
 ];
 
 const Terminal: React.FC = () => {
@@ -16,20 +22,20 @@ const Terminal: React.FC = () => {
   const [charIndex, setCharIndex] = useState<number>(0);
 
   useEffect(() => {
-    if (lineIndex < techStack.length) {
-      const currentLine = techStack[lineIndex];
+    if (lineIndex < techStackLines.length) {
+      const currentLine = techStackLines[lineIndex];
       if (charIndex <= currentLine.length) {
         const timeout = setTimeout(() => {
-          setDisplayedText(prev => prev + currentLine.charAt(charIndex));
-          setCharIndex(prev => prev + 1);
-        }, 40);
+          setDisplayedText((prev) => prev + currentLine.charAt(charIndex));
+          setCharIndex((prev) => prev + 1);
+        }, 25);
         return () => clearTimeout(timeout);
       } else {
         const timeout = setTimeout(() => {
-          setDisplayedText(prev => prev + '\n');
-          setLineIndex(prev => prev + 1);
+          setDisplayedText((prev) => prev + '\n');
+          setLineIndex((prev) => prev + 1);
           setCharIndex(0);
-        }, 300);
+        }, 200);
         return () => clearTimeout(timeout);
       }
     }
@@ -44,7 +50,7 @@ const Terminal: React.FC = () => {
       </div>
       <pre className={styles.body}>
         {displayedText}
-        {lineIndex < techStack.length && <span className={styles.cursor}>&nbsp;</span>}
+        {lineIndex < techStackLines.length && <span className={styles.cursor}>&nbsp;</span>}
       </pre>
     </div>
   );
