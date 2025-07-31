@@ -18,10 +18,10 @@ const About = () => {
           I live in Nashville, Tennessee, and while I once dreamed of climbing the ranks as a software engineer, I’ve realized that what drives me isn’t position — it’s purpose. I’m passionate about improving systems, learning every day, and using technology to serve people.
         </p>
         <p className="text-lg mb-4 leading-relaxed">
-          I’ve been part of the <strong>JC Movement</strong>, a nonprofit before-and-after school program I’ve supported since 2013. I helped in its earliest days, and now it serves three partner schools. I’m honored to continue contributing by building and maintaining its web platform.
+          I’ve been part of the <strong>JC Movement</strong>, a nonprofit before-and-after school program I’ve witness my Uncle Joseph Jenkins start in 2017. I helped in its earliest days, and now it serves three partner schools. I’m honored to continue contributing by building and maintaining its web platform.
         </p>
         <p className="text-lg mb-4 leading-relaxed">
-          My love for family and my faith in the Lord have carried me through every season. I truly believe He’s brought me this far for a reason — and I know there's still so much more He has for me to do in this world.
+          My love for family and my faith in the Lord have carried me through every season. I truly believe the Lord has brought me this far for a reason — and I know there so much more He has for me to do in this world.
         </p>
 
         {/* Links */}

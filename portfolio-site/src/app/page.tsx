@@ -19,7 +19,7 @@ const HomePage = () => {
           {/* Text */}
           <div className="flex flex-col md:items-start text-center md:text-left mb-6 md:mb-0">
             <h1 className="text-5xl font-bold text-white">Hello 👋🏽</h1>
-            <h1 className="text-5xl font-bold text-white">I'm Steven Stafford</h1>
+            <h1 className="text-5xl font-bold text-white">I am Steven Stafford</h1>
             <p className="mt-4 text-xl text-white max-w-2xl">
               <span className="font-semibold text-white">Scrum Master</span> at&nbsp;
               <Link href="https://www.momentumtech.io/" target="_blank" className="text-yellow-300 underline">
